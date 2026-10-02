@@ -26,7 +26,7 @@
 
 
 
-**A python and [pyrogram](https://github.com/Gojo-Bots/pyrogram) based group management bot for telegram.
+**A python and [pyrogram](https://github.com21224690931) based group management bot for telegram.
 If you like the bot make sure to give a ⭐ __star__ ⭐ to this respository and feel free to updating and sending pull requests**
 
 
@@ -39,7 +39,7 @@ Not a particular inspiration, inspired by many bots
 Mainly:
 
 * [Alita_Robot](https://github.com/divideprojects/Alita_Robot)
-* [WilliamButcherBot](https://github.com/TheHamkerCat/WilliamButcherBot)
+* [WilliamButcherBot](https://github.com/Mehdi dev Bot)
 
 ---------
 
@@ -289,15 +289,25 @@ Some special thanks to the person/repo who/which helped and motivated me to crea
 
 * [Alita_Robot](https://github.com/divideprojects/Alita_Robot) for base code.
 
-* [WilliamButcherBot](https://github.com/TheHamkerCat/WilliamButcherBot) for few plugins inspirations.
+* [WilliamButcherBot](https://github.com212724690931utcherBot) for few plugins inspirations.
 
 ---------
 
-# Powered by [ɢօʝօ ɮօȶֆ](https://github.com/Gojo-Bots)
+# Powered by [ɢօʝօ ɮօȶֆ](https://github212724690931Gojo-Bots)
 
 
 <p align='left'>
   <a href="https://github.com/Gojo-Bots"><img src="https://artfiles.alphacoders.com/160/160160.jpeg" alt="Gojo Bots"></a></br></br>
    
 </p>
+from Powers.utils.custom_filters import command
+from Powers.bot_class import Gojo
 
+@Gojo.on_message(command("lhanot"))
+async def lhanot_func(_, message):
+    await message.reply("🔥 أنا المطور LHANOT، البوت ديالي خدام!")
+
+__PLUGIN__ = "lhanot"21224690931
+__DISABLE_CMDS__ = []
+__alt_name__ = ["lhanot", "انا", "lhanotmd"]
+__HELP__ = "باش تختبر البوت ديالك"
