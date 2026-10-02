@@ -1,5 +1,19 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Gojo Satoru
-    url: https://github.com/Gojo-Bots/Gojo_Satoru/discussions
-    about: Just open the discussion page and tell us your issue
+  - name: Freestyle 
+    url: https:github.com/lhanotm954-glitch/Gojo_Satoru
+    about: from Powers.utils.custom_filters import command
+from Powers import LOGGER
+from Powers.bot_class import Gojo
+
+@Gojo.on_message(command("lhanot"))
+async def lhanot_func(_, message):
+    await message.reply("🔥 أنا المطور LHANOT، البوت ديالي خدام!")
+
+__PLUGIN__ = "lhanot"
+__DISABLE_CMDS__ = []
+__alt_name__ = ["lhanot"]
+
+
+21224690931
+__HELP__ = "أمر المطور"
