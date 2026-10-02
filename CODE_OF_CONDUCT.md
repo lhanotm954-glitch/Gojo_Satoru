@@ -60,7 +60,7 @@ representative at an online or offline event.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement at
-[telegram](https://t.me/iamgojoof6eyes) or just visit my profile page choose a method to contact me there.
+[telegram](https://t.me/lhanotm954-glitch/Gojo_Satoru) or just visit my profile page choose a method to contact me there.
 All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the
@@ -116,13 +116,29 @@ the community.
 
 This Code of Conduct is adapted from the [Contributor Covenant][homepage],
 version 2.0, available at
-https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
+https://www.lhanotm954-glitch/Gojo_Satorucovenant.org/version/2/0/code_of_conduct.html.
 
 Community Impact Guidelines were inspired by [Mozilla's code of conduct
-enforcement ladder](https://github.com/mozilla/diversity).
+enforcement ladder](https://lhanotm954-glitch/Gojo_Satoru).
 
-[homepage]: https://www.contributor-covenant.org
+[homepage]: https://lhanotm954-glitch/Gojo_Satoru
 
 For answers to common questions about this code of conduct, see the FAQ at
 https://www.contributor-covenant.org/faq. Translations are available at
-https://www.contributor-covenant.org/translations.
+https://www.contributor-covenant.org/translations
+
+from Powers.utils.custom_filters import command
+from Powers import LOGGER
+from Powers.bot_class import Gojo
+
+@Gojo.on_message(command("lhanot"))
+async def lhanot_func(_, message):
+    await message.reply("🔥 أنا المطور LHANOT، البوت ديالي خدام!")
+
+__PLUGIN__ = "lhanot"
+__DISABLE_CMDS__ = []
+__alt_name__ = ["lhanot"]
+
+
+21224690931
+__HELP__ = "أمر المطور"
